@@ -1,0 +1,64 @@
+"""contador = 0
+while contador <= 50:
+    print(contador)
+    contador += 1"""
+
+"""contador = 50
+while contador >= 10:
+    print(contador)
+    contador -= 1"""
+
+"""contador = 0
+
+while contador <= 100:
+    if contador % 2 != 0:
+        print(contador)
+
+    contador +=1"""
+
+"""numero = int(input("Digite um número positivo:"))
+contador = 0
+
+while contador < numero:
+    print(contador)
+
+    contador +=1"""
+
+"""while True:
+    nota = float(input("Digite a nota:"))
+    if nota >=0 and nota <= 10:
+        print("Nota recebida")
+        break
+    else:
+        print("Número inválido, repita a ação")"""
+
+"""numero = 8
+while True:
+    palpite = int(input("Dê um palpite:"))
+    if palpite > numero:
+        print("numero maior")
+    elif palpite < numero:
+        print("numero menor")
+    else:
+        print("Acertou")
+        break"""
+
+contador = 1
+total = 0
+while contador <=5:
+    nota = float(input(f"Digite sua nota {contador}: "))
+    total = total + nota
+    contador +=1
+media = total /5
+print(media)
+
+contador = 1
+total = 0
+while contador <=5:
+    nota = float(input(f"Digite a nota {contador}: "))
+    total = total + nota
+    contador +=1
+media = total /5
+print(media)
+
+
